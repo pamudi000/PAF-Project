@@ -41,7 +41,7 @@ public class ProductService {
 	return output;
 	}
 	
-	//Update products  
+	//// Update product details for the given productId
 	@PUT
 	@Path("/")
 	@Consumes(MediaType.APPLICATION_JSON)
@@ -60,7 +60,7 @@ public class ProductService {
 		return output;
 	}
 	
-	
+	// Deleting product details for the given productId
 	@DELETE
 	@Path("/")
 	@Consumes(MediaType.APPLICATION_XML)
