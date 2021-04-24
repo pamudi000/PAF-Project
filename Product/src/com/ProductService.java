@@ -26,6 +26,7 @@ public class ProductService {
 		return productObj.readProducts(); 
 	 }
 	
+	//insert products for the table
 	@POST
 	@Path("/")
 	@Consumes(MediaType.APPLICATION_FORM_URLENCODED)
@@ -40,6 +41,7 @@ public class ProductService {
 	return output;
 	}
 	
+	//Update products  
 	@PUT
 	@Path("/")
 	@Consumes(MediaType.APPLICATION_JSON)
